@@ -1,0 +1,11 @@
+/* Overwritten by order of color set below */
+button {
+    color: red;
+}
+
+/* Overwrites red button rule */
+button {
+    color: purple;
+    color: blue;    /* Good way to created fallbacks for unsupported colors within a browser.*/
+    color: green;
+}
