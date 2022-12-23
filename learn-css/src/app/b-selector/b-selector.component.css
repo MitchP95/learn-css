@@ -13,6 +13,11 @@ article p:first-of-type:hover {
     color : black;
 }
 
+/* Sets all even paragraphs to have a different background */
+article p:nth-child(even) {
+    background: floralwhite;
+  }
+
 /* Look for ID 'rad' */
 #rad {
     border: 1px solid blue;
