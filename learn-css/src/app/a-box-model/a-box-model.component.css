@@ -1,6 +1,7 @@
 p {
-    width: 100px;
+    width: 10%;
     height: 50px;
-    padding: 20px;
+    padding: 3px;
     border: 1px solid;
+    overflow: auto;
 }
