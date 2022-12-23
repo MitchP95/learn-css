@@ -9,15 +9,35 @@ article p:first-of-type {
     padding: 2em;
 }
 
+article p:first-of-type:hover {
+    color : black;
+}
+
 /* Look for ID 'rad' */
 #rad {
     border: 1px solid blue;
 }
 
+/* Attribute lookup */
 [type='primary'] {
     color: green;
 }
 
 [type='secondary'] {
     color: orange;
+}
+
+/* A href that contains "example.com" */
+[href*='example.com'] {
+    color: red;
+  }
+  
+/* A href that starts with https */
+[href^='https'] {
+color: green;
+}
+
+/* A href that ends with .com */
+[href$='.com'] {
+color: blue;
 }
