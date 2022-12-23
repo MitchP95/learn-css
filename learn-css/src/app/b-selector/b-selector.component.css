@@ -1,6 +1,10 @@
 /* apply to all text without a specific color change*/
 * {
-    color: hotpink;
+    color: black;
+}
+
+p strong {
+    color: blue;
 }
 
 article p:first-of-type {
@@ -20,7 +24,7 @@ article p::before {
 /* Sets all even paragraphs to have a different background */
 article p:nth-child(even) {
     background: floralwhite;
-  }
+}
 
 /* Look for ID 'rad' */
 #rad {
