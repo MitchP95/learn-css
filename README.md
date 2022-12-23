@@ -6,3 +6,9 @@ https://web.dev/learn/css/?gclid=CjwKCAiAnZCdBhBmEiwA8nDQxalKaGibbkkMhQcebqR6cih
 See the a-box-model component, and the page below:
 
 https://web.dev/learn/css/box-model/
+
+## Selector
+
+See the b-selector component, and the page below:
+
+https://web.dev/learn/css/selectors/
