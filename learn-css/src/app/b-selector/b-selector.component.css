@@ -13,3 +13,11 @@ article p:first-of-type {
 #rad {
     border: 1px solid blue;
 }
+
+[type='primary'] {
+    color: green;
+}
+
+[type='secondary'] {
+    color: orange;
+}
