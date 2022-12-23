@@ -1,4 +1,15 @@
+/* apply to all text without a specific color change*/
+* {
+    color: hotpink;
+}
+
 article p:first-of-type {
     color : red;
     font-size: 1.5em;
+    padding: 2em;
+}
+
+/* Look for ID 'rad' */
+#rad {
+    border: 1px solid blue;
 }
