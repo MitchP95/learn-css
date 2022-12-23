@@ -50,3 +50,14 @@ color: green;
 [href$='.com'] {
 color: blue;
 }
+
+/* Target list marker */
+li::marker {
+    color: purple;
+}
+
+ul {
+    width: 20%;
+    height: 40px;
+    overflow: auto;
+}
