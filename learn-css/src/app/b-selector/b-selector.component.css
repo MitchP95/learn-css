@@ -1,6 +1,14 @@
 /* apply to all text without a specific color change*/
 * {
-    color: hotpink;
+    color: black;
+}
+
+p strong {
+    color: blue;
+}
+
+p.FinalParagraph {
+    color: aqua;
 }
 
 article p:first-of-type {
@@ -13,10 +21,14 @@ article p:first-of-type:hover {
     color : black;
 }
 
+article p::before {
+    content: 'Some prefix - ';
+}
+
 /* Sets all even paragraphs to have a different background */
 article p:nth-child(even) {
     background: floralwhite;
-  }
+}
 
 /* Look for ID 'rad' */
 #rad {
@@ -45,4 +57,42 @@ color: green;
 /* A href that ends with .com */
 [href$='.com'] {
 color: blue;
+}
+
+/* Target list marker */
+li::marker {
+    color: purple;
+}
+
+ul {
+    width: 20%;
+    height: 40px;
+    overflow: auto;
+}
+
+.top * + * {
+    margin-top: 1.5em;
+  }
+  
+/* Presentation styles */
+.top p {
+    border: 1px solid var(--color-primary);
+    background: var(--color-light);
+    padding: 1em;
+}
+
+/* Presentational styles */
+.top > * + * {
+    position: relative;
+}
+
+.top > * + *::before {
+    content: "";
+    width: 100%;
+    height: 1.5em;
+    background: #ff807b;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    outline: 1px solid #9d0600;
 }
